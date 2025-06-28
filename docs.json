@@ -33,7 +33,7 @@
           {
             "group": "Internal API",
             "openapi": {
-              "source": "openapi-static/internal_api.json",
+              "source": "https://raw.githubusercontent.com/MinecraftAuthentication/openapi/refs/heads/main/internal_api.json",
               "directory": "api-reference/internal"
             }
           }
