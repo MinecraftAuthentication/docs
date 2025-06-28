@@ -44,13 +44,11 @@
             ]
           },
           {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
+            "group": "Internal API",
+            "openapi": {
+              "source": "api-reference/openapi-statuc/internal_api.json",
+              "directory": "api-reference"
+            }
           }
         ]
       }
