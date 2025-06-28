@@ -46,8 +46,8 @@
           {
             "group": "Internal API",
             "openapi": {
-              "source": "api-reference/openapi-statuc/internal_api.json",
-              "directory": "api-reference"
+              "source": "api-reference/openapi.json",
+              "directory": "api-reference/internal"
             }
           }
         ]
