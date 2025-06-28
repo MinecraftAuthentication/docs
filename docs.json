@@ -1,77 +1,90 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "MinecraftAuthentication Docs",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "https://minecraftauth.me/favicon.png",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Internal API",
-            "openapi": {
-              "source": "https://raw.githubusercontent.com/MinecraftAuthentication/openapi/refs/heads/main/internal_api.json",
-              "directory": "api-reference/internal"
-            }
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Discord",
-          "href": "https://minecraftauth.me/discord",
-          "icon": "discord"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "https://minecraftauth.me/favicon.png",
-    "dark": "https://minecraftauth.me/favicon.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "https://minecraftauth.me/discord"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://minecraftauth.me/developers"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+	"$schema": "https://mintlify.com/docs.json",
+	"theme": "mint",
+	"name": "MCAuth Docs",
+	"colors": {
+		"primary": "#16A34A",
+		"light": "#07C983",
+		"dark": "#15803D"
+	},
+	"favicon": "logo/favicon.png",
+	"navigation": {
+		"tabs": [
+			{
+				"tab": "For Players",
+				"groups": [
+					{
+						"group": "Get Started",
+						"pages": ["players/index"]
+					}
+				]
+			},
+			{
+				"tab": "For Server Owners",
+				"groups": [
+					{
+						"group": "Get Started",
+						"pages": ["owners/index"]
+					}
+				]
+			},
+			{
+				"tab": "For Developers",
+				"groups": [
+					{
+						"group": "Get Started",
+						"pages": ["devs/index"]
+					}
+				]
+			},
+			{
+				"tab": "API Reference",
+				"groups": [
+					{
+						"group": "API Documentation",
+						"pages": ["api-reference/introduction"]
+					},
+					{
+						"group": "Internal API",
+						"openapi": {
+							"source": "https://raw.githubusercontent.com/MinecraftAuthentication/openapi/refs/heads/main/internal_api.json",
+							"directory": "api-reference/internal"
+						}
+					}
+				]
+			}
+		],
+		"global": {
+			"anchors": [
+				{
+					"anchor": "Discord",
+					"href": "https://minecraftauth.me/discord",
+					"icon": "discord"
+				}
+			]
+		}
+	},
+	"logo": {
+		"light": "https://minecraftauth.me/favicon.png",
+		"dark": "https://minecraftauth.me/favicon.png"
+	},
+	"navbar": {
+		"links": [
+			{
+				"label": "Support",
+				"href": "https://minecraftauth.me/discord"
+			}
+		],
+		"primary": {
+			"type": "button",
+			"label": "Dashboard",
+			"href": "https://minecraftauth.me/developers"
+		}
+	},
+	"footer": {
+		"socials": {
+			"github": "https://github.com/MinecraftAuthentication",
+			"discord": "https://minecraftauth.me/discord"
+		}
+	}
 }
